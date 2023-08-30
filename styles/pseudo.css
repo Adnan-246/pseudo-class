@@ -44,3 +44,24 @@ h3::after{
 }
 
 /* position html element styles */
+.swimming div{
+  border: 1px dashed palevioletred;
+  width: 200px;
+}
+#ring{
+  /* position: absolute; */
+  /* position: relative; */
+  position: sticky;
+  /* position: fixed; */
+  left: 0px;
+  top: 100px;
+  
+}
+/* .swimming{
+  position: relative;
+} */
+.dummy{
+  height: 150px;
+  width: 250px;
+  background-color: pink;
+}
