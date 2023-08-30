@@ -1,0 +1,17 @@
+h1{
+  color:royalblue;
+}
+/* pseudo class styles */
+h1:hover{
+  color: skyblue;
+  background-color: seagreen;
+  font-size: 50px;
+  font-weight: 700;
+}
+.middle-person:focus{
+  color: blue;
+  font-weight: 700;
+}
+a:visited{
+  color: blue;
+}
