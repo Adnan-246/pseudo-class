@@ -15,7 +15,7 @@ h1:hover{
 a:visited{
   color: blue;
 }
-
+/*  First child, nth child */
 li:first-child{
   color: chocolate;
 }
@@ -32,4 +32,13 @@ li:nth-child(2n+1){
 }
 li{
   list-style: none;
+}
+/* pseudo element styles */
+h3::before{
+  content: 'Hello ';
+}
+h3::after{
+  content: 'gelo';
+  background-color: darkkhaki;
+  font-size: 13px;
 }
