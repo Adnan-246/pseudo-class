@@ -15,3 +15,21 @@ h1:hover{
 a:visited{
   color: blue;
 }
+
+li:first-child{
+  color: chocolate;
+}
+li:last-child{
+  background: cornflowerblue;
+}
+/* even number */
+li:nth-child(2n){
+  color: crimson;
+}
+/* odd number */
+li:nth-child(2n+1){
+  background: darkgray;
+}
+li{
+  list-style: none;
+}
